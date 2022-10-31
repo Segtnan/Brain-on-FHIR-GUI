@@ -4,7 +4,7 @@ import pandas as pd
 import jaydebeapi as jdbc
 import plotly.express as px
 
-conn = jdbc.connect("org.apache.derby.jdbc.ClientDriver", "jdbc:derby://18.197.210.190:6414/gaiandb", ["gaiandb", "passw0rd"], "./derbyclient.jar")
+conn = jdbc.connect("org.apache.derby.jdbc.ClientDriver", "jdbc:derby://18.195.167.178:6414/gaiandb", ["gaiandb", "passw0rd"], "./derbyclient.jar")
 curs = conn.cursor()
 
 
